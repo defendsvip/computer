@@ -1,4 +1,3 @@
-\
 # Sets Windows display/UI language and locale defaults to Simplified Chinese (zh-CN).
 # Designed for GitHub Actions Windows runners (non-persistent). Applies to new logons; a reboot/sign-out
 # may be required for every surface to reflect changes.
