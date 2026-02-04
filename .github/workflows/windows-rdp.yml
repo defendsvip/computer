@@ -19,14 +19,6 @@ jobs:
       - name: Create RDP User with Secure Password
         shell: pwsh
         run: .github/workflows/scripts/win-create-user.ps1
-      - name: Set Windows Language to zh-CN (Simplified Chinese)
-        shell: pwsh
-        run: .github/workflows/scripts/win-set-zh-cn.ps1
-
-#      - name: OPTIONAL Reboot to fully apply language everywhere (may terminate hosted runner)
-#        shell: pwsh
-#        run: shutdown /r /t 0
-
 
       - name: Install Tailscale
         shell: pwsh
