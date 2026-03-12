@@ -1,2 +1,2 @@
-# windows
-windows
+# computer
+computer
